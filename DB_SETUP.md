@@ -3,6 +3,7 @@
 This project uses PostgreSQL via Sequelize. The project expects environment variables for DB configuration; see `src/config/config.js`.
 
 ## Environment variables
+
 Create a `.env` file at the project root with the following variables (example):
 
 ```
@@ -56,6 +57,6 @@ npx sequelize-cli db:migrate --env test
 ```
 
 ## Troubleshooting
+
 - If migrations fail, check `src/config/config.js` values and ensure Postgres is running.
 - Ensure the `DB_USER` has permission to create and modify tables in the database.
-

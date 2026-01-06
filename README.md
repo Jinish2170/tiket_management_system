@@ -3,6 +3,7 @@
 A lightweight ticket management system built with Node.js, Express, Sequelize (Postgres) and a React frontend.
 
 ## Features
+
 - User authentication and authorization
 - Ticket creation, assignment, and status updates
 - Comments, tags, activity logs, and assignments
@@ -11,6 +12,7 @@ A lightweight ticket management system built with Node.js, Express, Sequelize (P
 ## Quick Start
 
 Prerequisites:
+
 - Node.js (16+ recommended)
 - PostgreSQL
 
@@ -43,6 +45,7 @@ npm start
 ```
 
 ## Project Structure (important files)
+
 - `index.js` — backend entry point
 - `src/config/config.js` — Sequelize DB config
 - `src/controllers` — route handlers
@@ -51,14 +54,18 @@ npm start
 - `frontend/` — React app
 
 ## Database Setup
+
 See `DB_SETUP.md` for step-by-step database setup and example `.env` values.
 
 ## Development notes
+
 - To run migrations for a specific environment set `NODE_ENV` or set the `--env` flag with `sequelize-cli`.
 - Tests: none configured by default. Add tests to `src/` and `frontend/` as needed.
 
 ## Contributing
+
 Please open issues or pull requests. Follow repository style and run linters before submitting.
 
 ## License
+
 This project does not include a license file. Add a license if you intend to make it public.
