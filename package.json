@@ -1,7 +1,7 @@
 {
-  "name": "tiket_management_system",
+  "name": "ticket-management-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "TicketFlow — a lightweight ticket management system (Node + Express + Sequelize + React)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
